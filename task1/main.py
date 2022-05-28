@@ -1,4 +1,4 @@
-from annexes_scraper import annexScrapper
+from annexes_scraper import AnnexScrapper
 import requests
 
 if __name__ == "__main__":
@@ -8,7 +8,7 @@ if __name__ == "__main__":
     zip_name = "task1"
 
     try:
-        scrapper = annexScrapper(zip_name)
+        scrapper = AnnexScrapper(zip_name)
         scrapper.scrape_documents(documents_download)
     except requests.exceptions.HTTPError as err:
         raise SystemExit(err)
