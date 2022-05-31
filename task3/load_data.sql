@@ -5,7 +5,8 @@ DELIMITER ';'
 ENCODING 'LATIN1'
 CSV HEADER;
 
--- Utiliza plpgsql para iterar na lista dos arquivos do 1 Trimestre de 2020 ao 3º de 2021
+-- Utiliza plpgsql para iterar na lista dos arquivos do 1º Trimestre de 2020 ao 3º de 2021
+
 DO
 $do$
 DECLARE

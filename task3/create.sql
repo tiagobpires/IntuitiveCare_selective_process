@@ -1,4 +1,4 @@
--- Armazenamento dos dados do arquivo csv em anexo (realtório cadop)
+-- Armazenamento dos dados do arquivo csv em anexo (relatório cadop)
 CREATE TABLE relatorio_cadop(
     reg_ans integer,
     cnpj text,
