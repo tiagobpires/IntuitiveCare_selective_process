@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "7c1f00ac-d75d-41eb-bb98-e76e104c2c73",
+		"name": "Intuitive Care",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Example",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/search/?reg_ans=477&cnpj&razao_social&numero&complemento&bairro&cidade&uf&cep&ddd&telefone&fax&endereco_eletronico&representante&cargo_representante&data_registro_ans",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"search",
+						""
+					],
+					"query": [
+						{
+							"key": "reg_ans",
+							"value": "477"
+						},
+						{
+							"key": "cnpj",
+							"value": null
+						},
+						{
+							"key": "razao_social",
+							"value": null
+						},
+						{
+							"key": "numero",
+							"value": null
+						},
+						{
+							"key": "complemento",
+							"value": null
+						},
+						{
+							"key": "bairro",
+							"value": null
+						},
+						{
+							"key": "cidade",
+							"value": null
+						},
+						{
+							"key": "uf",
+							"value": null
+						},
+						{
+							"key": "cep",
+							"value": null
+						},
+						{
+							"key": "ddd",
+							"value": null
+						},
+						{
+							"key": "telefone",
+							"value": null
+						},
+						{
+							"key": "fax",
+							"value": null
+						},
+						{
+							"key": "endereco_eletronico",
+							"value": null
+						},
+						{
+							"key": "representante",
+							"value": null
+						},
+						{
+							"key": "cargo_representante",
+							"value": null
+						},
+						{
+							"key": "data_registro_ans",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
